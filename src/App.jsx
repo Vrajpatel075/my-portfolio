@@ -13,6 +13,7 @@ import Footer from './section/Footer'
 function App() {
   const [IsMenuOpen,setIsMenuOpen]=useState(false)
   const [IsLoading,setIsLoading]=useState(false)
+  
   return (
    <>
       {!IsLoading && <LodingScreenAnimation OnComplate={()=>{setIsLoading(true)}}/>}

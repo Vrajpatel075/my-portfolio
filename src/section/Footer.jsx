@@ -1,5 +1,7 @@
 import { FaLinkedin } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -13,6 +15,14 @@ function Footer() {
                 className=" BORDER p-2 text-2xl rounded hover:translate-y-0.5 transition-all bg-pink-600 text-white"
                 target="_blank"
                 ><FaInstagramSquare /></a>
+                <a href="https://github.com/Vrajpatel075"
+                className=" BORDER p-2 text-2xl rounded hover:translate-y-0.5 transition-all bg-black text-white"
+                target="_blank"
+                ><FaGithub/></a>
+                <a href="https://wa.me/919156693279"
+                className=" BORDER p-2 text-2xl rounded hover:translate-y-0.5 transition-all bg-green-500 text-white"
+                target="_blank"
+                ><FaWhatsapp /></a>
             </div>
             <p> @ 2025 vraj. all rights reserved</p>
         </div>
