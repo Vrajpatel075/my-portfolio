@@ -88,7 +88,7 @@ function About() {
         </div>
         <div className="w-xl flex justify-center m-auto">
           <a className='bg-white text-pink-950 py-3 px-4 rounded flex font-medium transition relative overflow-hidden
-            hover:translate-y-1 hover:shadow-[0_0_15px_rgba(180,0,246,0.5)]' href={certificates} download> <p>Certificates</p>
+            hover:translate-y-1 hover:shadow-[0_0_15px_rgba(180,0,246,0.5)]' href={certificates} download> <p>View My Certificate</p>
             <span className='h-5 ml-3 text-2xl'><MdOutlineFileDownload /></span></a>
         </div>
       </RevealOnScroll> 
