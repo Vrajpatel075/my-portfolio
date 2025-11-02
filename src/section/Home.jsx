@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from "../assets/myimage5.jpeg"
+import profileImg from "../assets/profil-pic.jpeg"
 import { MdOutlineFileDownload } from "react-icons/md";
 import resune from '../assets/VrajPatelResume.pdf'
 

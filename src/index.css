@@ -3,7 +3,7 @@ html , body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #1C0D30;
+    background: rgb(11, 48, 82,100 );
     color: aliceblue;
     scroll-behavior: smooth;
 }
