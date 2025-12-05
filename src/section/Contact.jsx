@@ -4,17 +4,17 @@ import RevealOnScroll from "../UI/RevealOnScroll"
 
 export const Contact =()=>{
     return(
-    <section id="contact" className="min-h-screen font-mono flex items-center justify-center py-20 ">
+    <section id="contact" className="min-h-screen font-mono flex items-center justify-center py-4 w-screen px-10 ">
         <RevealOnScroll>
 
-        <div className="px-4 w-150 ">
+        <div className="w-100 md:w-3xl px-4" id="contacts">
         
         <h2 
         className="max-w-3xl text-4xl font-semibold mb-12 bg-gradient-to-r from-teal-500 to-indigo-600 bg-clip-text text-transparent text-center "
         >Get  in Touch
         </h2>
 
-        <form className="space-y-6" action="https://formsubmit.co/vraj75228@gmail.com" method="POST">
+        <form className="space-y-6"  action="https://formsubmit.co/vraj75228@gmail.com" method="POST">
             <div className="relative36">
                 <input 
                 type="text"
