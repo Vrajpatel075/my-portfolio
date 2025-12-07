@@ -1,7 +1,7 @@
 import React from 'react'
 import profileImg from "../assets/profile-picture.jpeg"
 import { MdOutlineFileDownload } from "react-icons/md";
-import resune from '../assets/VrajPatelResume.pdf'
+import resune from '../assets/Java full stack developer resume.pdf'
 
 function home() {
   return (

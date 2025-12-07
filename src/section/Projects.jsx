@@ -1,6 +1,6 @@
 import { useState } from "react"
 import golfsite from '../assets/golf site thumbnail.png'
-import weatherapp from '../assets/weather app thumbnail.jpeg'
+import garastore from '../assets/garastore.jpeg'
 import blogapp from '../assets/blog app thumbnail.jpeg'
 import animaxx from '../assets/animax thumbnail.png'
 // import profileImg from "../assets/sprited-away-poster.jpg"
@@ -21,10 +21,10 @@ function Projects() {
         tags: ["React", "CSS", "HTML", "Routing"]
     },
 
-        {image:weatherapp, 
-        name:"Weather App" , 
-        brief:"Weather App is a sleek, responsive platform that lets users check real-time weather conditions by city. It fetches data from the OpenWeatherMap API and displays temperature, wind speed, humidity, and weather icons with smooth UI transitions. Designed with HTML, CSS, and JavaScript.",
-        tags: ["HTML", "CSS", "JavaScript"]
+        {image:garastore, 
+        name:"Gara Store" , 
+        brief:"GaraStore is a e Commerce project designed to simulate an online shopping platform, combining backend logic with a simple web interface. It demonstrates how Java, HTML, and related technologies can be integrated to build a functional application",
+        tags: [ "Java" , "Html" , "Css" , "SQL"]
     },
         
         {image:golfsite   , 
