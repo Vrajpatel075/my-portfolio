@@ -4,7 +4,7 @@ import RevealOnScroll from "../UI/RevealOnScroll"
 
 export const Contact =()=>{
     return(
-    <section id="contact" className="min-h-screen font-mono flex items-center justify-center py-4 w-screen px-10 ">
+    <section id="contact" className="min-h-screen font-mono flex items-center justify-center py-4 w-full px-10 ">
         <RevealOnScroll>
 
         <div className="w-100 md:w-3xl px-4" id="contacts">
